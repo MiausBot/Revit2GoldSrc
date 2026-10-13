@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>netstandard2.0</TargetFramework></PropertyGroup><ItemGroup><ProjectReference Include="../Revit2GoldSrc.Core/Revit2GoldSrc.Core.csproj" /></ItemGroup></Project>

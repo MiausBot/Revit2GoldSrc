@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Revit2GoldSrc 2025</Name>
+    <Assembly>Revit2GoldSrc/Revit2GoldSrc.Revit.dll</Assembly>
+    <AddInId>6B8A99F5-D0DA-4D08-9440-98EC685DBE42</AddInId>
+    <FullClassName>Revit2GoldSrc.Revit.App</FullClassName>
+    <VendorId>R2GS</VendorId>
+    <VendorDescription>Exportador BIM a brushes GoldSrc</VendorDescription>
+  </AddIn>
+</RevitAddIns>

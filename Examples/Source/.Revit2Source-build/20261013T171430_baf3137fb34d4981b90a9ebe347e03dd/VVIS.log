@@ -1,0 +1,23 @@
+Valve Software - vvis.exe (Jan 29 2024)
+2 threads
+reading c:\proyectos\revit2goldsrc\examples\source\.revit2source-build\20261013t171430_baf3137fb34d4981b90a9ebe347e03dd\revit_l4d2_room.bsp
+max farz in all env_fog_controller entities: -1.000000 (used for radial vis)
+reading c:\proyectos\revit2goldsrc\examples\source\.revit2source-build\20261013t171430_baf3137fb34d4981b90a9ebe347e03dd\revit_l4d2_room.prt
+   8 portalclusters
+  10 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 64
+Average clusters visible: 8
+Building PAS...
+Average clusters audible: 8
+visdatasize:84  compressed from 128
+writing c:\proyectos\revit2goldsrc\examples\source\.revit2source-build\20261013t171430_baf3137fb34d4981b90a9ebe347e03dd\revit_l4d2_room.bsp
+0 seconds elapsed
+CDynamicFunction: Loading library 'Kernel32.dll' (75330000)
+CDynamicFunction: Lookup of 'TryEnterCriticalSection' in 'Kernel32.dll': 776545F0
+CDynamicFunction: Loading library 'psapi.dll' (77380000)
+CDynamicFunction: Lookup of 'GetProcessMemoryInfo' in 'psapi.dll': 773814F0
+CDynamicFunction: Closing library 'psapi.dll' (77380000)
+CDynamicFunction: Closing library 'Kernel32.dll' (75330000)

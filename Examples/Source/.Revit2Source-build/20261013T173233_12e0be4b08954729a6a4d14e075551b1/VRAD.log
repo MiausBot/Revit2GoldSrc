@@ -1,0 +1,236 @@
+Valve Software - vrad.exe SSE (Jan 29 2024)
+
+      Valve Radiosity Simulator     
+2 threads
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\proyectos\revit2goldsrc\examples\source\.revit2source-build\20261013t173233_12e0be4b08954729a6a4d14e075551b1\revit_l4d2_room.bsp
+Setting up ray-trace acceleration structure... Done (0.02 seconds)
+42 faces
+1261 square feet [181683.28 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+42 patches before subdivision
+162 patches after subdivision
+2 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 4008, max 60
+transfer lists:   0.0 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(9803, 8579, 7084)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(4619, 4042, 3338)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(2214, 1937, 1600)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #4 added RGB(1059, 927, 765)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #5 added RGB(507, 443, 366)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #6 added RGB(243, 212, 175)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #7 added RGB(116, 102, 84)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #8 added RGB(56, 49, 40)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #9 added RGB(27, 23, 19)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #10 added RGB(13, 11, 9)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #11 added RGB(6, 5, 4)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #12 added RGB(3, 3, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #13 added RGB(1, 1, 1)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #14 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              60/65536         480/524288   ( 0.1%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes                69/65536         828/786432   ( 0.1%) 
+nodes                   45/65536        1440/2097152  ( 0.1%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   42/65536        2352/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               21/65536        1176/3670016  ( 0.0%) 
+leaves                  48/65536        1536/2097152  ( 0.1%) 
+leaffaces               42/65536          84/131072   ( 0.1%) 
+leafbrushes             25/65536          50/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              264/512000       1056/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]        6224/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          84/16777216 ( 0.0%) 
+entdata               [variable]        3375/393216   ( 0.9%) 
+LDR ambient table       48/65536         192/262144   ( 0.1%) 
+HDR ambient table       48/65536         192/262144   ( 0.1%) 
+LDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86770/0        ( 0.0%) 
+physics               [variable]        3944/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 96
+Writing c:\proyectos\revit2goldsrc\examples\source\.revit2source-build\20261013t173233_12e0be4b08954729a6a4d14e075551b1\revit_l4d2_room.bsp
+0 seconds elapsed
+Valve Software - vrad.exe SSE (Jan 29 2024)
+
+      Valve Radiosity Simulator     
+2 threads
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\proyectos\revit2goldsrc\examples\source\.revit2source-build\20261013t173233_12e0be4b08954729a6a4d14e075551b1\revit_l4d2_room.bsp
+Setting up ray-trace acceleration structure... Done (0.02 seconds)
+42 faces
+1261 square feet [181683.28 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+42 patches before subdivision
+162 patches after subdivision
+unknown light specifier type - 
+unknown light specifier type - 
+2 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 4008, max 60
+transfer lists:   0.0 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(9803, 8579, 7084)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(4619, 4042, 3338)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(2214, 1937, 1600)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #4 added RGB(1059, 927, 765)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #5 added RGB(507, 443, 366)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #6 added RGB(243, 212, 175)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #7 added RGB(116, 102, 84)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #8 added RGB(56, 49, 40)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #9 added RGB(27, 23, 19)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #10 added RGB(13, 11, 9)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #11 added RGB(6, 5, 4)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #12 added RGB(3, 3, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #13 added RGB(1, 1, 1)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #14 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              60/65536         480/524288   ( 0.1%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes                69/65536         828/786432   ( 0.1%) 
+nodes                   45/65536        1440/2097152  ( 0.1%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   42/65536        2352/3670016  ( 0.1%) 
+hdr faces               42/65536        2352/3670016  ( 0.1%) 
+origfaces               21/65536        1176/3670016  ( 0.0%) 
+leaves                  48/65536        1536/2097152  ( 0.1%) 
+leaffaces               42/65536          84/131072   ( 0.1%) 
+leafbrushes             25/65536          50/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              264/512000       1056/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]        6224/0        ( 0.0%) 
+HDR lightdata         [variable]        6224/0        ( 0.0%) 
+visdata               [variable]          84/16777216 ( 0.0%) 
+entdata               [variable]        3375/393216   ( 0.9%) 
+LDR ambient table       48/65536         192/262144   ( 0.1%) 
+HDR ambient table       48/65536         192/262144   ( 0.1%) 
+LDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+HDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86770/0        ( 0.0%) 
+physics               [variable]        3944/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 96
+Writing c:\proyectos\revit2goldsrc\examples\source\.revit2source-build\20261013t173233_12e0be4b08954729a6a4d14e075551b1\revit_l4d2_room.bsp
+0 seconds elapsed
+CDynamicFunction: Loading library 'Kernel32.dll' (75330000)
+CDynamicFunction: Lookup of 'TryEnterCriticalSection' in 'Kernel32.dll': 776545F0
+CDynamicFunction: Loading library 'psapi.dll' (77380000)
+CDynamicFunction: Lookup of 'GetProcessMemoryInfo' in 'psapi.dll': 773814F0
+CDynamicFunction: Closing library 'psapi.dll' (77380000)
+CDynamicFunction: Closing library 'Kernel32.dll' (75330000)

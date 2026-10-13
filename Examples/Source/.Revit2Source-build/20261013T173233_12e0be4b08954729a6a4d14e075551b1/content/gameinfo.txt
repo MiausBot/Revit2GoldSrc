@@ -1,0 +1,33 @@
+"GameInfo"
+{
+	"game" "Left 4 Dead 2"
+	"type" "multiplayer_only"
+	"nomodels" "1"
+	"nohimodel" "1"
+	"l4dcrosshair" "1"
+	"hidden_maps"
+	{
+		"test_speakers" "1"
+		"test_hardware" "1"
+	}
+	"nodegraph" "0"
+	"perfwizard" "0"
+	"SupportsXbox360" "1"
+	"SupportsDX8" "0"
+	"GameData" "left4dead2.fgd"
+	"FileSystem"
+	{
+		"SteamAppId" "550"
+		"ToolsAppId" "563"
+		"SearchPaths"
+		{
+			"Game" "C:/PROYECTOS/Revit2GoldSrc/Examples/Source/.Revit2Source-build/20261013T173233_12e0be4b08954729a6a4d14e075551b1/content"
+			"Game" "E:/SteamLibrary/steamapps/common/Left 4 Dead 2/update"
+			"Game" "E:/SteamLibrary/steamapps/common/Left 4 Dead 2/left4dead2_dlc3"
+			"Game" "E:/SteamLibrary/steamapps/common/Left 4 Dead 2/left4dead2_dlc2"
+			"Game" "E:/SteamLibrary/steamapps/common/Left 4 Dead 2/left4dead2_dlc1"
+			"Game" "E:/SteamLibrary/steamapps/common/Left 4 Dead 2/left4dead2"
+			"Game" "E:/SteamLibrary/steamapps/common/Left 4 Dead 2/hl2"
+		}
+	}
+}

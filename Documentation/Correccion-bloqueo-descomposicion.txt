@@ -1,0 +1,7 @@
+Corrección del bloqueo en descomposición (2026-10-13)
+
+La identificación de vértices usa celdas espaciales y las aristas buscan candidatos en rangos ordenados. Las comprobaciones de cancelación y tiempo ahora se ejecutan dentro de las búsquedas, pruebas de convexidad, cierre BSP y fusión. El presupuesto de descomposición sigue siendo 30 segundos por sólido, más hasta 2 segundos de optimización opcional. Si se supera, el elemento se omite con diagnóstico; no se sustituye su geometría ni se reduce la calidad. Solo se refina la teselación cuando la aproximación no cumple la precisión o volumen del perfil, sin repetir fallos de descomposición.
+
+Validación: 155 pruebas por runtime (net48, net8, net10), 465 correctas. Compilación Revit 2024 sin advertencias; Revit 2025 con las dos advertencias MSB3277 conocidas de dependencias Autodesk. Escena mixta exportada y compilada mediante CSG/BSP/VIS/RAD: artifacts/freeze-fix-demo.map y .bsp, BSP30 con dos modelos. Pruebas nuevas de cancelación durante análisis de malla, presupuesto de tiempo y cancelación durante validación convexa.
+
+Pendiente: exportación real del elemento 2057427 dentro de Revit. La captura muestra la etapa activa, pero no aporta su malla; no se declara su conversión comprobada. La llamada nativa de teselación de Autodesk sigue sin poder interrumpirse mientras está dentro de la API.

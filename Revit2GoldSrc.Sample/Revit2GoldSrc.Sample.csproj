@@ -1,0 +1,1 @@
+﻿<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net10.0</TargetFramework><OutputType>Exe</OutputType></PropertyGroup><ItemGroup><ProjectReference Include="../Revit2GoldSrc.GoldSrc/Revit2GoldSrc.GoldSrc.csproj" /></ItemGroup><ItemGroup><ProjectReference Include="../Revit2GoldSrc.Compilation/Revit2GoldSrc.Compilation.csproj" /></ItemGroup></Project>
